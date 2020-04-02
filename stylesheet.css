@@ -1,0 +1,64 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.container {
+  width:1170px;
+  margin:0 auto;
+}
+
+
+header{
+  height:90px;
+  background-color:#11eaea;
+  color:white;
+}
+
+.header-logo {
+ float:left;
+ font-size:36px;
+ padding:27px 0;
+}
+
+.header-list a {
+  float:left;
+  padding:40px;
+  margin-left:20px;
+  color:#fff;
+}
+
+.top-img {
+  height:580px;
+  background-image:url(https://www.pakutaso.com/shared/img/thumb/RED19428C006_TP_V.jpg);
+  background-size:cover;
+}
+
+.txt {
+  height:300px;
+  font-size:20px;
+}
+
+footer {
+  height:90px;
+  background-color:#11eaea;
+}
+
+footer a {
+  color:#fff;
+  display:inline-block;
+  font-size:22px;
+  padding:27px;
+}
